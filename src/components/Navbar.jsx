@@ -50,18 +50,12 @@ const Navbar = () => {
             );
           })}
         </div>
-        <div className="hidden md:flex gap-4 text-[1.3rem] text-[#66FCF1]">
-          <a href="" className="hover:text-white">
-            <FaGithub />
-          </a>
-          <a href="" className="hover:text-white">
-            <FaTelegram />
-          </a>
-          <a href="" className="hover:text-white">
-            <FaInstagram />
-          </a>
-          <a href="" className="hover:text-white">
-            <FaFacebook />
+        <div className="hidden md:block">
+          <a
+            href=""
+            className="py-2 px-5 bg-[#66FCF1] text-black/90 rounded-sm font-lspartan"
+          >
+            See My Works
           </a>
         </div>
         <div className="block md:hidden">
@@ -69,7 +63,13 @@ const Navbar = () => {
             {click ? <IoClose /> : <FiMenu />}
           </span>
         </div>
-        <div className={click ? "md:hidden absolute gap-[1.2rem] top-20 z-[-2] left-0 w-full flex py-[20px] px-[30px] flex-col bg-black/60 duration-300" : "md:hidden absolute gap-[1.2rem] top-[-200px] z-[-2] left-0 w-full flex py-[20px] px-[30px] flex-col bg-black/60 duration-300"}>
+        <div
+          className={
+            click
+              ? "md:hidden absolute gap-[1.2rem] top-20 z-[-2] left-0 w-full flex py-[20px] px-[30px] flex-col bg-[#000000dc] duration-300"
+              : "md:hidden absolute gap-[1.2rem] top-[-250px] z-[-2] left-0 w-full flex py-[20px] px-[30px] flex-col bg-[#000000dc] duration-300"
+          }
+        >
           {navItems.map((item, index) => {
             return (
               <div key={index} className="">
@@ -84,6 +84,14 @@ const Navbar = () => {
               </div>
             );
           })}
+          <div className="">
+            <a
+              href=""
+              className="py-2 px-5 bg-[#66FCF1] text-black/90 rounded-sm font-lspartan"
+            >
+              See My Works
+            </a>
+          </div>
           <div className="border-b-[1px]"></div>
           <div className="flex gap-[4rem] text-[1.3rem] justify-center text-[#66FCF1]">
             <a href="" className="hover:text-white">
