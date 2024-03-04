@@ -1,15 +1,20 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import { BrowserRouter } from "react-router-dom";
-import Hero from "./components/Hero";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Hero from "./pages/Hero";
+import Resume from "./pages/Resume";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="bg-black/90 min-h-screen">
-        <Navbar />
-        <Hero />
-      </div>
+      <Routes>
+        <Route path="/" element={<Navbar />}>
+          <Route index element={<Hero />}></Route>
+          <Route path="/resume" element={<Resume />}></Route>
+        </Route>
+      </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };

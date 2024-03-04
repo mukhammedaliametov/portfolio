@@ -5,8 +5,8 @@ import { FaFacebook, FaGithub, FaInstagram, FaTelegram } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="pt-[100px] flex justify-center w-full">
-      <div className="lg:max-w-[1000px] mx-[30px] xl:max-w-[1100px] flex justify-between items-center gap-6 lg:mt-[50px] md:mt-[100px]">
+    <div className="pt-[100px] flex justify-center w-full bg-black/90">
+      <div className="lg:max-w-[1000px] mx-[30px] xl:max-w-[1100px] flex justify-between items-center gap-6 lg:mt-[50px] md:mt-[100px] mb-[100px]">
         <div className="w-[100%] md:w-[60%]">
           <div className="w-[40%] my-[20px] overflow-hidden md:hidden flex">
             <img
@@ -23,7 +23,7 @@ const Hero = () => {
             working on several projects, continuing to innovate in the digital
             field.
           </p>
-          <div className="flex gap-4 text-[1.3rem] text-[#ffffffd2] my-3 mb-7">
+          <div className="flex gap-5 text-[1.3rem] text-[#ffffffd2] my-3 mb-7">
             <a href="" className="hover:text-white">
               <FaGithub />
             </a>
