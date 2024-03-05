@@ -3,8 +3,8 @@ import ResumeSkills from "../components/ResumeSkills";
 
 const Resume = () => {
   return (
-    <div className="flex justify-center w-full pt-[110px] bg-black/90" id="resume">
-      <div className="lg:max-w-[1000px] mx-[30px] xl:max-w-[1200px]  flex flex-col w-full">
+    <div className="flex justify-center w-full pt-[110px] bg-black/90">
+      <div className="max-w-[1000px] mx-[30px] xl:max-w-[1200px] flex flex-col w-full">
         <h1 className="text-4xl text-[#66FCF1] font-lspartan">Resume</h1>
         <span className="py-[2px] rounded-lg bg-[#66FCF1] w-[5%]"></span>
         <div className="grid grid-cols-1 md:grid-cols-2 w-full mt-5">

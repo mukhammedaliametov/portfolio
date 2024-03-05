@@ -17,7 +17,7 @@ const Navbar = () => {
     },
     {
       name: "Portfolio",
-      link: "/",
+      link: "/portfolio",
     },
     {
       name: "Contact",
@@ -33,14 +33,14 @@ const Navbar = () => {
     <>
       <div className="fixed flex justify-center text-white shadow-md w-full bg-black z-10">
         <div className="xl:max-w-[1200px] lg:max-w-[1000px] px-[20px] bg-black lg:px-0 flex w-full duration-300 justify-between items-center">
-          <a href="#home" className="">
+          <Link to="/">
             <img
               src={Logo}
               alt="my-logo"
               className="rounded-full"
               width={100}
             />
-          </a>
+          </Link>
           <div className="flex gap-[3rem]">
             {navItems.map((item, index) => {
               return (
@@ -61,7 +61,7 @@ const Navbar = () => {
               href="https://github.com/mukhammedaliametov?tab=repositories"
               className="py-2 px-5 bg-[#66FCF1] text-black/90 rounded-sm font-lspartan"
             >
-              See My Works
+              See My Works 
             </a>
           </div>
           <div className="block md:hidden">

@@ -5,7 +5,7 @@ import { FaFacebook, FaGithub, FaInstagram, FaTelegram } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="pt-[100px] flex justify-center w-full bg-black/90">
+    <div className="pt-[100px] min-h-screen flex justify-center w-full bg-black/90">
       <div className="lg:max-w-[1000px] mx-[30px] xl:max-w-[1100px] flex justify-between items-center gap-6 lg:mt-[50px] md:mt-[100px] mb-[100px]">
         <div className="w-[100%] md:w-[60%]">
           <div className="w-[40%] my-[20px] overflow-hidden md:hidden flex">
