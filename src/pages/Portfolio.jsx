@@ -27,10 +27,10 @@ const Portfolio = () => {
                   <img src={item.img} alt="" className="w-full" />
                 </div>
                 <div className="flex justify-between items-center py-3 px-4">
-                  <h1 className="text-[1.1rem] font-montserrat">{item.name}</h1>
+                  <h1 className="text-[.9rem] lg:text-[1.1rem] font-montserrat">{item.name}</h1>
                   <Link
                     to={convertToSlug(`${item.name}`)}
-                    className="font-lspartan text-[1.2rem] flex items-center gap-2 text-[#66FCF1]"
+                    className="font-lspartan text-[.9rem] lg:text-[1.2rem] flex items-center gap-2 text-[#66FCF1]"
                   >
                     See more
                     <FaAngleRight />

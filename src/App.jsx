@@ -6,6 +6,7 @@ import Resume from "./pages/Resume";
 import Footer from "./components/Footer";
 import Portfolio from "./pages/Portfolio";
 import SinglePage from "./pages/SinglePage";
+import Contact from "./pages/Contact";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/resume" element={<Resume />}></Route>
           <Route path="/portfolio" element={<Portfolio />}></Route>
           <Route path='/portfolio/:slug' element={<SinglePage />} /> 
+          <Route path='/contact' element={<Contact />} /> 
         </Route>
       </Routes>
       <Footer />
