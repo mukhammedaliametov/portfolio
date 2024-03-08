@@ -14,7 +14,7 @@ const Contact = () => {
       <div className="max-w-[1000px] mx-[30px] xl:max-w-[1200px] w-full">
         <h1 className="text-4xl text-[#66FCF1] font-lspartan">Contact</h1>
         <span className="py-[2px] block rounded-lg bg-[#66FCF1] w-[5%]"></span>
-        <div className="flex justify-between md:items-center my-6 gap-6">
+        <div className="flex justify-evenly md:items-center my-6 gap-6">
           <form className="hidden md:flex flex-col gap-3 w-full md:w-[50%] text-white">
             <div className="flex flex-col gap-1">
               <label htmlFor="email" className="font-bold">Email:</label>
