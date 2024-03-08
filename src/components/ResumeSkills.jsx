@@ -60,7 +60,7 @@ const ResumeSkills = () => {
             <div className="relative">
               <span className="py-[3px] my-1 bg-white block rounded-sm w-[100%]"></span>
               <span
-                className={`py-[3px] absolute top-0 left-0 bg-[#66FCF1] w-[${item.percent}%]`}
+                className={`py-[3px] absolute top-0 left-0 bg-[#66FCF1] w-[50%]`}
               ></span>
             </div>
           </div>
