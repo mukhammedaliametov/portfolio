@@ -5,42 +5,42 @@ const ResumeSkills = () => {
     {
       name: "HTML 5",
       year: "2022-present",
-      percent: "80",
+      percent: 80,
     },
     {
       name: "CSS 3 & SCSS",
       year: "2022-present",
-      percent: "80",
+      percent: 80,
     },
     {
       name: "JavaScript ES6",
       year: "2022-present",
-      percent: "70",
+      percent: 70,
     },
     {
       name: "Bootstrap 5 & Tailwind ",
       year: "2022-present",
-      percent: "70",
+      percent: 70,
     },
     {
       name: "React Js & Next Js",
       year: "2023-present",
-      percent: "70",
+      percent: 70,
     },
     {
       name: "TypeScript",
       year: "2023-present",
-      percent: "70",
+      percent: 70,
     },
     {
       name: "Git: GitHub",
       year: "2022-present",
-      percent: "80",
+      percent: 80,
     },
     {
       name: "AI libraries",
       year: "2023-present",
-      percent: "60",
+      percent: 60,
     },
   ];
 
