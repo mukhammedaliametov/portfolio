@@ -1,46 +1,47 @@
 import React from "react";
+import '../App.css';
 
 const ResumeSkills = () => {
   const skillsData = [
     {
       name: "HTML 5",
       year: "2022-present",
-      percent: 80,
+      percent: `80%`,
     },
     {
       name: "CSS 3 & SCSS",
       year: "2022-present",
-      percent: 80,
+      percent: `80%`,
     },
     {
       name: "JavaScript ES6",
       year: "2022-present",
-      percent: 70,
+      percent: `70%`,
     },
     {
       name: "Bootstrap 5 & Tailwind ",
       year: "2022-present",
-      percent: 70,
+      percent: `70%`,
     },
     {
       name: "React Js & Next Js",
       year: "2023-present",
-      percent: 70,
+      percent: `70%`,
     },
     {
       name: "TypeScript",
       year: "2023-present",
-      percent: 70,
+      percent: `70%`,
     },
     {
       name: "Git: GitHub",
       year: "2022-present",
-      percent: 80,
+      percent: `80%`,
     },
     {
       name: "AI libraries",
       year: "2023-present",
-      percent: 60,
+      percent: `60%`,
     },
   ];
 
@@ -55,12 +56,12 @@ const ResumeSkills = () => {
                 <b>{item.name}</b>{" "}
                 <span className="text-[.9rem] ml-2">({item.year})</span>
               </p>
-              <p className="text-white font-montserrat">{item.percent}%</p>
+              <p className="text-white font-montserrat">{item.percent}</p>
             </div>
             <div className="relative">
               <span className="py-[3px] my-1 bg-white block rounded-sm w-[100%]"></span>
               <span
-                className={`py-[3px] absolute top-0 left-0 bg-[#66FCF1] w-[50%]`}
+                className={`py-[3px] absolute top-0 left-0 bg-[#66FCF1] w-[${item.percent}]`}
               ></span>
             </div>
           </div>
