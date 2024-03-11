@@ -3,6 +3,7 @@ import "../App.css";
 import { Link } from "react-router-dom";
 import { FaAngleRight } from "react-icons/fa6";
 import { portfolioData } from "../portfolioData";
+import { CgArrowTopRight } from "react-icons/cg";
 
 const Portfolio = () => {
   function convertToSlug(Text) {
@@ -23,7 +24,10 @@ const Portfolio = () => {
                 className="box-shadow-css rounded-lg overflow-hidden bg-black/20"
                 key={index}
               >
-                <div>
+                <div className="relative group">
+                  <div className="w-full absolute p-5 h-[100%] hidden group-hover:block bg-black/60 duration-300 text-center pt-[20%] pl-[36%]  text-[1.1rem]">
+                    <a href={item.url} target="_blank" className="font-montserrat flex items-center">Go to website {item.link} <CgArrowTopRight className="text-[#66FCF1] text-[1.6rem] ml-2" /></a>
+                  </div>
                   <img src={item.img} alt="" className="w-full" />
                 </div>
                 <div className="flex justify-between items-center py-3 px-4">
