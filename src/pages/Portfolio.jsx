@@ -6,11 +6,6 @@ import { portfolioData } from "../portfolioData";
 import { CgArrowTopRight } from "react-icons/cg";
 
 const Portfolio = () => {
-  function convertToSlug(Text) {
-    return Text.toLowerCase()
-      .replace(/ /g, "-")
-      .replace(/[^\w-]+/g, "");
-  }
 
   return (
     <div className="flex justify-center w-full pt-[110px] min-h-screen bg-black/90">
@@ -26,14 +21,14 @@ const Portfolio = () => {
               >
                 <div className="relative group">
                   <div className="w-full absolute p-5 h-[100%] hidden group-hover:block bg-black/60 duration-300 text-center pt-[20%] pl-[36%]  text-[1.1rem]">
-                    <a href={item.url} target="_blank" className="font-montserrat flex items-center">Go to website {item.link} <CgArrowTopRight className="text-[#66FCF1] text-[1.6rem] ml-2" /></a>
+                    <a href={item.url} target="_blank" className="font-montserrat flex items-center">Visit website {item.link} <CgArrowTopRight className="text-[#66FCF1] text-[1.6rem] ml-2" /></a>
                   </div>
                   <img src={item.img} alt="" className="w-full" />
                 </div>
                 <div className="flex justify-between items-center py-3 px-4">
                   <h1 className="text-[.9rem] lg:text-[1.1rem] font-montserrat">{item.name}</h1>
                   <Link
-                    to={convertToSlug(`${item.name}`)}
+                    to={`${index}`}
                     className="font-lspartan text-[.9rem] lg:text-[1.2rem] flex items-center gap-2 text-[#66FCF1]"
                   >
                     See more

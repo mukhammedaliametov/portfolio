@@ -9,6 +9,7 @@ export const portfolioData = [
     img: TravelProject,
     url: "https://nukusavtovokzaltour.uz/",
     date: "May 27, 2023",
+    slug: ''
   },
   {
     name: "Kan Driver",
