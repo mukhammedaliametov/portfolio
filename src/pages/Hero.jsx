@@ -40,6 +40,7 @@ const Hero = () => {
           <div>
             <a
               href={viewCV}
+              target="_blank"
               className="text-white border-[2px] font-bold py-2 px-6 border-[#66FCF1]"
             >
               Download CV

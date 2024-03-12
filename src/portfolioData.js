@@ -14,7 +14,7 @@ export const portfolioData = [
   {
     name: "Kan Driver",
     technologies: "HTML 5, CSS 3, SCSS, JavaScript(JQuery)",
-    info: "This project is my 1st startup in the Kanlikol district of the Republic of Karakalpakstan, through which I eased the work of taxis and pedestrians in the Kanlikol district.",
+    info: "This project is my 1st startup in the Kanlikul district of the Republic of Karakalpakstan, through which I eased the work of taxis and pedestrians in the Kanlikol district.",
     img: KanDriver,
     url: "https://kandriver.uz/",
     date: "Jul 10, 2023",
