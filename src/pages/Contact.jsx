@@ -19,27 +19,31 @@ const Contact = () => {
           <ContactForm />
           <div className="text-[#ffffff8a] hidden md:flex flex-col gap-5 w-full md:w-auto">
             <a
-              href=""
+              href="https://github.com/mukhammedaliametov"
+              target="_blank"
               className="flex items-center gap-2 text-[1.1rem] font-lspartan duration-200 hover:text-[#66FCF1]"
             >
               <FaGithub /> Follow on GitHub
             </a>
             <a
-              href=""
+              href="https://instagram.com/ametov.me"
+              target="_blank"
               className="flex items-center gap-2 text-[1.1rem] font-lspartan duration-200 hover:text-[#66FCF1]"
             >
               <FaInstagram />
               Follow on Instagram
             </a>
             <a
-              href=""
+              href="https://t.me/ametov_blog"
+              target="_blank"
               className="flex items-center gap-2 text-[1.1rem] font-lspartan duration-200 hover:text-[#66FCF1]"
             >
               <FaTelegram />
               Follow on Telegram
             </a>
             <a
-              href=""
+              href="https://m.facebook.com/people/Mukhammedali-Ametov/100088878734938/?locale=et_EE"
+              target="_blank"
               className="flex items-center gap-2 text-[1.1rem] font-lspartan duration-200 hover:text-[#66FCF1]"
             >
               <FaFacebook />
@@ -47,21 +51,21 @@ const Contact = () => {
             </a>
             <span className="border-t-[1px] border-[#ffffff49]"></span>
             <a
-              href=""
+              href="mailto: ametovmukhammedali07@gmail.com"
               className="flex items-center gap-2 text-[1.1rem] font-lspartan duration-200 hover:text-[#66FCF1]"
             >
               <IoMdMail />
               ametovmukhammedali07@gmail.com
             </a>
             <a
-              href=""
+              href="tel: +998(94)833-06-81"
               className="flex items-center gap-2 text-[1rem] font-lspartan duration-200 hover:text-[#66FCF1]"
             >
               <FaPhone />
               +998(94)833-06-81
             </a>
             <a
-              href=""
+              href="https://t.me/ametovme"
               className="flex items-center gap-2 text-[1.1rem] font-lspartan duration-200 hover:text-[#66FCF1]"
             >
               <FaTelegram />

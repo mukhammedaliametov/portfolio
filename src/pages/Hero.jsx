@@ -22,17 +22,17 @@ const Hero = () => {
             working on several projects, continuing to innovate in the digital
             field.
           </p>
-          <div className="flex gap-5 text-[1.3rem] text-[#ffffffd2] my-3 mb-7">
-            <a href="" className="hover:text-white">
+          <div className="flex gap-7 text-[1.3rem] text-[#ffffffd2] my-3 mb-7">
+            <a href="https://github.com/mukhammedaliametov" target="_blank" className="hover:text-white">
               <FaGithub />
             </a>
-            <a href="" className="hover:text-white">
+            <a href="https://t.me/ametov_blog" target="_blank" className="hover:text-white">
               <FaTelegram />
             </a>
-            <a href="" className="hover:text-white">
+            <a href="https://instagram.com/ametov.me" target="_blank" className="hover:text-white">
               <FaInstagram />
             </a>
-            <a href="" className="hover:text-white">
+            <a href="https://m.facebook.com/people/Mukhammedali-Ametov/100088878734938/?locale=et_EE" target="_blank" className="hover:text-white">
               <FaFacebook />
             </a>
           </div>

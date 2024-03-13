@@ -93,21 +93,21 @@ const ContactForm = () => {
       </div>
       <div className="flex flex-col md:hidden text-[#ffffff8a] gap-4 w-full md:w-auto mt-3 pt-3 border-t border-[#ffffff75]">
         <a
-          href=""
+          href="mailto: ametovmukhammedali07@gmail.com"
           className="flex items-center gap-2 text-[1.1rem] font-lspartan duration-200 hover:text-[#66FCF1]"
         >
           <IoMdMail />
           ametovmukhammedali07@gmail.com
         </a>
         <a
-          href=""
+          href="tel: +998(94)833-06-81"
           className="flex items-center gap-2 text-[1rem] font-lspartan duration-200 hover:text-[#66FCF1]"
         >
           <FaPhone />
           +998(94)833-06-81
         </a>
         <a
-          href=""
+          href="https://t.me/ametovme"
           className="flex items-center gap-2 text-[1.1rem] font-lspartan duration-200 hover:text-[#66FCF1]"
         >
           <FaTelegram />

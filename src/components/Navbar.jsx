@@ -100,16 +100,16 @@ const Navbar = () => {
             </div>
             <div className="border-b-[1px]"></div>
             <div className="flex gap-[4rem] text-[1.3rem] justify-center text-[#66FCF1]">
-              <a href="" className="hover:text-white">
+              <a href="https://github.com/mukhammedaliametov" target="_blank" className="hover:text-white">
                 <FaGithub />
               </a>
-              <a href="" className="hover:text-white">
+              <a href="https://t.me/ametov_blog" target="_blank" className="hover:text-white">
                 <FaTelegram />
               </a>
-              <a href="" className="hover:text-white">
+              <a href="https://instagram.com/ametov.me" target="_blank" className="hover:text-white">
                 <FaInstagram />
               </a>
-              <a href="" className="hover:text-white">
+              <a href="https://m.facebook.com/people/Mukhammedali-Ametov/100088878734938/?locale=et_EE" target="_blank" className="hover:text-white">
                 <FaFacebook />
               </a>
             </div>
