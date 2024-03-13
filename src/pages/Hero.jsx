@@ -1,6 +1,7 @@
 import React from "react";
 import viewCV from "../../public/Mukhammedali_Ametov_CV.pdf";
 import { FaFacebook, FaGithub, FaInstagram, FaTelegram } from "react-icons/fa";
+import { SiMonkeytype } from "react-icons/si";
 
 const Hero = () => {
   return (
@@ -22,7 +23,7 @@ const Hero = () => {
             working on several projects, continuing to innovate in the digital
             field.
           </p>
-          <div className="flex gap-7 text-[1.3rem] text-[#ffffffd2] my-3 mb-7">
+          <div className="flex items-center gap-7 text-[1.3rem] text-[#ffffffd2] my-3 mb-7">
             <a href="https://github.com/mukhammedaliametov" target="_blank" className="hover:text-white">
               <FaGithub />
             </a>
@@ -34,6 +35,9 @@ const Hero = () => {
             </a>
             <a href="https://m.facebook.com/people/Mukhammedali-Ametov/100088878734938/?locale=et_EE" target="_blank" className="hover:text-white">
               <FaFacebook />
+            </a>
+            <a href="https://monkeytype.com/profile/ametov" target="_blank" className="hover:text-white">
+              <SiMonkeytype size={26} />
             </a>
           </div>
           <div>

@@ -4,6 +4,7 @@ import { Link, Outlet } from "react-router-dom";
 import { FaFacebook, FaGithub, FaInstagram, FaTelegram } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
 import { IoClose } from "react-icons/io5";
+import { SiMonkeytype } from 'react-icons/si';
 
 const Navbar = () => {
   const navItems = [
@@ -61,7 +62,7 @@ const Navbar = () => {
               href="https://github.com/mukhammedaliametov?tab=repositories"
               className="py-2 px-5 bg-[#66FCF1] text-black/90 rounded-sm font-lspartan"
             >
-              See My Works 
+              See My Works
             </a>
           </div>
           <div className="block md:hidden">
@@ -99,18 +100,41 @@ const Navbar = () => {
               </a>
             </div>
             <div className="border-b-[1px]"></div>
-            <div className="flex gap-[4rem] text-[1.3rem] justify-center text-[#66FCF1]">
-              <a href="https://github.com/mukhammedaliametov" target="_blank" className="hover:text-white">
+            <div className="flex items-center gap-[3rem] text-[1.3rem] justify-center text-[#66FCF1]">
+              <a
+                href="https://github.com/mukhammedaliametov"
+                target="_blank"
+                className="hover:text-white"
+              >
                 <FaGithub />
               </a>
-              <a href="https://t.me/ametov_blog" target="_blank" className="hover:text-white">
+              <a
+                href="https://t.me/ametov_blog"
+                target="_blank"
+                className="hover:text-white"
+              >
                 <FaTelegram />
               </a>
-              <a href="https://instagram.com/ametov.me" target="_blank" className="hover:text-white">
+              <a
+                href="https://instagram.com/ametov.me"
+                target="_blank"
+                className="hover:text-white"
+              >
                 <FaInstagram />
               </a>
-              <a href="https://m.facebook.com/people/Mukhammedali-Ametov/100088878734938/?locale=et_EE" target="_blank" className="hover:text-white">
+              <a
+                href="https://m.facebook.com/people/Mukhammedali-Ametov/100088878734938/?locale=et_EE"
+                target="_blank"
+                className="hover:text-white"
+              >
                 <FaFacebook />
+              </a>
+              <a
+                href="https://monkeytype.com/profile/ametov"
+                target="_blank"
+                className="hover:text-white"
+              >
+                <SiMonkeytype size={26} />
               </a>
             </div>
           </div>
