@@ -62,7 +62,7 @@ const ContactForm = () => {
           Number:
         </label>
         <input
-          type="number"
+          type="tel"
           onChange={(e) => setPhone(e.target.value)}
           value={phone}
           placeholder="+996 700 123 456"
