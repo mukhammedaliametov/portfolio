@@ -2,6 +2,7 @@ import React from "react";
 import { portfolioData } from "../portfolioData";
 import { Link, useParams } from "react-router-dom";
 import { CgArrowTopRight } from "react-icons/cg";
+import { FaGithub } from "react-icons/fa";
 
 const SinglePage = () => {
   const { id } = useParams();
@@ -38,6 +39,7 @@ const SinglePage = () => {
             <p>
               <b>Date:</b> {selectedProject.date}
             </p>
+            <a href={selectedProject.codes} target="_blank" className="flex items-center pt-2"><FaGithub className="text-[1.2rem] mr-[8px]" /> Open Source Code</a>
             <a
               href={selectedProject.url}
               target="_blank"

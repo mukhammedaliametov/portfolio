@@ -48,7 +48,7 @@ const Navbar = () => {
                 <div key={index} className="hidden md:flex">
                   <Link
                     to={item.link}
-                    className="font-lspartan text-lg hover:text-[#66FCF1] duration-300"
+                    className="font-lspartan text-lg hover:text-[#66FCF1] duration-300 focus:text-[#66FCF1]"
                   >
                     {item.name}
                   </Link>
