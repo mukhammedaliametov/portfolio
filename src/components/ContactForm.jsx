@@ -4,14 +4,14 @@ import { IoMdMail } from "react-icons/io";
 
 const ContactForm = () => {
   const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("+");
+  const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
 
   var msg =
     `✉️ Email: ` +
     email +
     `%0A📞 Phone: ` +
-    `+${phone}` +
+    phone +
     `%0A📝 Message: ` +
     message;
 
