@@ -11,7 +11,7 @@ const ContactForm = () => {
     `✉️ Email: ` +
     email +
     `%0A📞 Phone: ` +
-    `${phone}` +
+    `+${phone}` +
     `%0A📝 Message: ` +
     message;
 
