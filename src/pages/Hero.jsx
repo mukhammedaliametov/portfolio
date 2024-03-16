@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="w-[100%] md:w-[60%]">
           <div className="w-[40%] my-[20px] overflow-hidden md:hidden flex">
             <img
-              src="https://cdn4.cdn-telegram.org/file/YguqDfYdGULIA6VgSH-y6xEv9spipTgRZYQVzqh57IhWwCQ8LYp9n2NkPu9qCjFCTUQG4VsmcVgY5C4n1to97nzHgwYCWa0J5UrvEIQ-swJebEe6LAzqL8NI3ASJqq0v5L-rGi8nFwL4mXENbKvH6OBEI5aA3uNeOCAcj5H4X1xeuFWEZNlKz49Nn5l0G_4MCFatWAr1iLzFUj6kPZIfKkBt7LZGQTMaZEHHhaLQwpxsvcsk84e2nUc8RUxtA4g-R00Grjnh9vCQWL6LSM-h5glF32vUT5kXqk4ob5JJ_tXx4HYYGr_iMy2w3fglwcBOyibpoNahukPpDfjz-X2_jg.jpg"
+              src="https://avatars.githubusercontent.com/u/116502890?v=4"
               alt="my-image"
               className="rounded-full border-[#49fff3] border-[2px]"
             />
@@ -52,7 +52,7 @@ const Hero = () => {
         </div>
         <div className="w-[30%] overflow-hidden hidden md:block">
           <img
-            src="https://cdn4.cdn-telegram.org/file/YguqDfYdGULIA6VgSH-y6xEv9spipTgRZYQVzqh57IhWwCQ8LYp9n2NkPu9qCjFCTUQG4VsmcVgY5C4n1to97nzHgwYCWa0J5UrvEIQ-swJebEe6LAzqL8NI3ASJqq0v5L-rGi8nFwL4mXENbKvH6OBEI5aA3uNeOCAcj5H4X1xeuFWEZNlKz49Nn5l0G_4MCFatWAr1iLzFUj6kPZIfKkBt7LZGQTMaZEHHhaLQwpxsvcsk84e2nUc8RUxtA4g-R00Grjnh9vCQWL6LSM-h5glF32vUT5kXqk4ob5JJ_tXx4HYYGr_iMy2w3fglwcBOyibpoNahukPpDfjz-X2_jg.jpg"
+            src="https://avatars.githubusercontent.com/u/116502890?v=4"
             alt="my-image"
             className="rounded-full border-[#49fff3] border-[2px]"
           />
