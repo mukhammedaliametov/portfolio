@@ -19,7 +19,7 @@ const Hero = () => {
             Front-End developer
           </p>
           <p className="w-[100%] pt-5 text-white font-lspartan text-[1.3rem]">
-            I'm Muhammedali Ametov from Nukus is Uzbekistan. Currently I am
+            I'm Mukhammedali Ametov from Nukus is Uzbekistan. Currently I am
             working on several projects, continuing to innovate in the digital
             field.
           </p>
