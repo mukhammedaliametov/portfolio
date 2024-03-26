@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Portfolio from "./pages/Portfolio";
 import SinglePage from "./pages/SinglePage";
 import Contact from "./pages/Contact";
+import ErrorPage from "./pages/ErrorPage";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/portfolio/:id" element={<SinglePage />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/:error" element={<ErrorPage />} />
         </Route>
       </Routes>
       <Footer />
