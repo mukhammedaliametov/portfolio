@@ -63,10 +63,10 @@ const Resume = () => {
             </div>
             <div className="border-l-[1px] border-[#66FCF1] p-4 flex flex-col">
               <p className="text-[1.1rem] text-white font-montserrat">
-                Intellect Academy
+                Intellect Academy Khodjeyli
               </p>
               <span className="text-1xl py-1 text-[#ffffffd2] font-lspartan px-1">
-                2023 October - present
+                2023 October - 2024 April
               </span>
               <span className="text-[1.1rem] font-montserrat text-white ">
                 Front-End Mentor

@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="w-[100%] md:w-[60%]">
           <div className="w-[40%] my-[20px] overflow-hidden md:hidden flex">
             <img
-              src="https://cdn4.cdn-telegram.org/file/EnyrlA62LG7e24KSPgPY7-ztp2-Veoy9qSQQkP3yjhjBYflE8naaUMnn9yDnIpASkJF-tYVmb7fekYwpYjmiOlNNAlamtUu_v9VAMG_TyoQzuuwhow1LDUPwsK5W3P8FAVP-DBGp9DPmGhJsJZDthBE37tNYZiKp9u1xHDA2WwBC2ZeH9JAf5yS1Eb6dzYScaDbi8RGT6lFzTaFZWth-985wkAsolwOu88WkVmag4nI80l1kwowd-YfxBJpGWxTUHf_WQPRHzFEu_F3-B5PA1UFHO9cq27pd9abOS6yDFeBbMYQpS9Gdg6VLo7q1x4p5fWZ1xrxK5m2Gx1mClczC-w.jpg"
+              src="https://avatars.githubusercontent.com/u/116502890?v=4"
               alt="my-image"
               className="rounded-full border-[#49fff3] border-[2px]"
             />
@@ -19,7 +19,7 @@ const Hero = () => {
             Front-End developer
           </p>
           <p className="w-[100%] pt-5 text-white font-lspartan text-[1.3rem]">
-            I'm Muhammedali Ametov from Nukus is Uzbekistan. Currently I am
+            I'm Mukhammedali Ametov from Nukus is Uzbekistan. Currently I am
             working on several projects, continuing to innovate in the digital
             field.
           </p>
@@ -52,7 +52,7 @@ const Hero = () => {
         </div>
         <div className="w-[30%] overflow-hidden hidden md:block">
           <img
-            src="https://cdn4.cdn-telegram.org/file/EnyrlA62LG7e24KSPgPY7-ztp2-Veoy9qSQQkP3yjhjBYflE8naaUMnn9yDnIpASkJF-tYVmb7fekYwpYjmiOlNNAlamtUu_v9VAMG_TyoQzuuwhow1LDUPwsK5W3P8FAVP-DBGp9DPmGhJsJZDthBE37tNYZiKp9u1xHDA2WwBC2ZeH9JAf5yS1Eb6dzYScaDbi8RGT6lFzTaFZWth-985wkAsolwOu88WkVmag4nI80l1kwowd-YfxBJpGWxTUHf_WQPRHzFEu_F3-B5PA1UFHO9cq27pd9abOS6yDFeBbMYQpS9Gdg6VLo7q1x4p5fWZ1xrxK5m2Gx1mClczC-w.jpg"
+            src="https://avatars.githubusercontent.com/u/116502890?v=4"
             alt="my-image"
             className="rounded-full border-[#49fff3] border-[2px]"
           />
