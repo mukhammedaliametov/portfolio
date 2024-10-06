@@ -5,7 +5,6 @@ import Hero from "./pages/Hero";
 import Resume from "./pages/Resume";
 import Footer from "./components/Footer";
 import Portfolio from "./pages/Portfolio";
-import SinglePage from "./pages/SinglePage";
 import Contact from "./pages/Contact";
 import ErrorPage from "./pages/ErrorPage";
 
@@ -17,7 +16,6 @@ const App = () => {
           <Route index element={<Hero />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/portfolio/:id" element={<SinglePage />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/:error" element={<ErrorPage />} />
         </Route>

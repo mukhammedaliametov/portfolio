@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../assets/logo.png";
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, NavLink  } from "react-router-dom";
 import { FaFacebook, FaGithub, FaInstagram, FaTelegram } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
 import { IoClose } from "react-icons/io5";
@@ -45,13 +45,17 @@ const Navbar = () => {
           <div className="flex gap-[3rem]">
             {navItems.map((item, index) => {
               return (
-                <div key={index} className="hidden md:flex">
-                  <Link
+                <div key={index} className="hidden md:flex font-lspartan text-lg">
+                  <NavLink
                     to={item.link}
-                    className="font-lspartan text-lg hover:text-[#66FCF1] duration-300 focus:text-[#66FCF1]"
+                    className={({ isActive }) =>
+                      isActive
+                        ? "text-[#66FCF1]"
+                        : "hover:text-[#66FCF1] duration-300 focus:text-[#66FCF1]"
+                    }
                   >
                     {item.name}
-                  </Link>
+                  </NavLink>
                   <span className="py-[5px] text-[#66FCF1] w-[100%]"></span>
                 </div>
               );
@@ -79,14 +83,18 @@ const Navbar = () => {
           >
             {navItems.map((item, index) => {
               return (
-                <div key={index} className="">
-                  <Link
+                <div key={index} className="font-lspartan text-lg">
+                  <NavLink
                     to={item.link}
-                    className="font-lspartan text-lg hover:text-[#66FCF1] duration-300"
+                    className={({ isActive }) =>
+                      isActive
+                        ? "text-[#66FCF1]"
+                        : "hover:text-[#66FCF1] duration-300 focus:text-[#66FCF1]"
+                    }
                     onClick={closeMenu}
                   >
                     {item.name}
-                  </Link>
+                  </NavLink>
                   <span className="py-[5px] text-[#66FCF1] w-[100%]"></span>
                 </div>
               );
